@@ -97,11 +97,11 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "../scss/settings";
+@import "settings";
 @import "../bower_components/foundation/scss/foundation";
 @import "../bower_components/slick.js/slick/slick";
-@import "../scss/slideshow";
-@import "../scss/quote";
+@import "slideshow";
+@import "quote";
 
 .top-navigation {
 //  @include grid-column(12);
