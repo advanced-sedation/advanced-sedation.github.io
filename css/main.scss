@@ -98,8 +98,8 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "settings";
-@import "../bower_components/foundation/scss/foundation";
-@import "../bower_components/slick.js/slick/slick";
+@import "foundation";
+@import "slick";
 @import "slideshow";
 @import "quote";
 
