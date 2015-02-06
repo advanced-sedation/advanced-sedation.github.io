@@ -273,10 +273,10 @@ $default-float: left !default;
 $opposite-direction: right !default;
 @if $text-direction == ltr {
   $default-float: left;
-  $opposite-direction: right;
+  $opposite-direction: right !global;
 } @else {
   $default-float: right;
-  $opposite-direction: left;
+  $opposite-direction: left !global;
 }
 
 // We use these to make sure border radius matches unless we want it different.
