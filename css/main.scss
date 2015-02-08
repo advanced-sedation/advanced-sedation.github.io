@@ -327,9 +327,15 @@ main {
     @include grid-row();
     &> img {
       @include grid-column(5);
+      @include small-only {
+        @include grid-column(12);
+      }
     }
     &> figcaption {
       @include grid-column(7);
+      @include small-only {
+        @include grid-column(12);
+      }
     }
     h3 {
       font-size: rem-calc(20);
