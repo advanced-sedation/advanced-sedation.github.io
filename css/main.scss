@@ -300,10 +300,13 @@ main {
 .extra-care {
   @include grid-row();
   aside {
-    @include grid-column(4);
+    @include grid-column(12);
     text-align: center;
     p {
       text-align: justify;
+    }
+    @include large-up {
+      @include grid-column(4)
     }
   }
   h3 {
