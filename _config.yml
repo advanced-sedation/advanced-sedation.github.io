@@ -4,7 +4,7 @@ email: info@advancedsedation.com
 description: > #
               Advanced Dental Anesthesia Services services New York, New Jersey, and Pennsylvania with safe and
               comfortable anesthesia services in the comfort of your dental practice.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://advancedsedation.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
